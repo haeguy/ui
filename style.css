@@ -1,0 +1,51 @@
+/* simple selector example */
+/* h1 {
+    color: red;
+} */
+/* p {
+    color: blue;
+} */
+
+/* class selector example */
+/* p.second{
+    color: yellow;
+    text-align: left;
+} */
+
+/* id selector example */
+/* #hello{
+    color: orange;
+} */
+
+/* universal selector example */
+/* h2, p, a{
+    color: purple;
+} */
+
+/* the asterisk overides all the Eliment to d centa */
+/* *{ */
+    /* text-align: center;
+} */
+
+/* example of descendant selector */
+/* div p {
+    color: red;
+}
+div p a {
+    color: white;
+} */
+
+/* example of child selector */
+/* div > a{
+    color:blue;
+} */
+
+/* example of general sibling selector (~) */
+/* div a{
+    color: white;
+} */
+
+/* adjacent sibling selector  */
+h1 + h2  {
+    color: brown;
+}
